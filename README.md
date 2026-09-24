@@ -1,5 +1,7 @@
 # teach-skill-bundle
 
+> 仓库地址：https://github.com/shenyang8103/teach-skill-bundle
+
 一套基于 **WorkBuddy** 的 AI 教学 / 自学技能组合：`teach` + `visualize`。
 
 核心目标：用"真正理解而非死记"的方式教（或学）任何东西——把知识建成依赖图，从已接受的基础推导出来，而非堆砌孤立事实；并支持**跨会话续学**（用 `progress.md` 记录进度与路线路）。
