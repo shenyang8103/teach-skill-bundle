@@ -60,9 +60,10 @@ cp -r teach-skill-bundle/visualize ~/.workbuddy/skills/visualize
 
 任意工作区对话中调用：
 
-- `@skill: teach` 或 Skill 工具选择 `teach`，然后给它一个你想讲 / 想学的主题。
+- `/teach` 或 Skill 工具选择 `teach`，然后给它一个你想讲 / 想学的主题。
 - 启动后它会先问"内容从哪来"（自动联网 / 混合 / 指定目录 / .md 资料清单），然后走探查 → 规划 → 教学 → 块末检查点。
-- 一块学完后，检查点可选"保存进度，下次继续"，生成/更新 `progress.md`；下次新会话说"继续"即可从断点接着讲。
+- 一块学完后，会询问是否有疑问还是进入检查点测试。也可以在学习过程中任意时刻提问，答疑优先级高。
+- 完成检查点后可选"保存进度，下次继续"，生成/更新 `progress.md`；下次新会话说"继续"即可从断点接着讲。
 - 多主题建议每个主题建一个独立目录（如 `bridge/`），各放一份 `progress.md`，进度互不污染。
 
 ## 自定义
@@ -89,5 +90,6 @@ cp -r teach-skill-bundle/visualize ~/.workbuddy/skills/visualize
 - **测验正确项强制随机化**：以 Bash `date +%s` 取余驱动正确项位置，消除模型主观排布偏见（原实现无此保障）。
 - **多主题隔离实践**：建议每主题一个独立目录存放各自的 `progress.md`，进度互不污染。
 
+Dingdonggulu
 2026.09.26
 
